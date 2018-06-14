@@ -28,10 +28,10 @@ class LandingPage extends Component {
           <ApplicationWrap className="Page__MainWrapper">
             <section className="Page__Hero">
               <Hero />
-            </section>{' '}
+            </section>
             <section className="Page__DonateCallToAction">
               <DonateCallToAction />
-            </section>{' '}
+            </section>
             <section
               className="Page__About"
               style={{
@@ -39,9 +39,9 @@ class LandingPage extends Component {
               }}
             >
               <About />
-            </section>{' '}
-          </ApplicationWrap>{' '}
-        </main>{' '}
+            </section>
+          </ApplicationWrap>
+        </main>
       </div>
     );
   }

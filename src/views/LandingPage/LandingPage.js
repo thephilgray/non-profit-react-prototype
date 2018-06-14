@@ -5,6 +5,7 @@ import Header from 'components/Header/Header';
 import Hero from './Sections/Hero';
 import DonateCallToAction from './Sections/DonateCallToAction';
 import About from './Sections/About';
+import Issues from './Sections/Issues';
 const ApplicationWrap = styled('div')`
   flex: 1 1 auto;
   backface-visibility: hidden;
@@ -39,6 +40,9 @@ class LandingPage extends Component {
               }}
             >
               <About />
+            </section>
+            <section className="Page__Issues">
+              <Issues />
             </section>
           </ApplicationWrap>
         </main>

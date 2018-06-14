@@ -19,19 +19,29 @@ class LandingPage extends Component {
     return (
       <div className="Page">
         <Header />
-        <main role="main" style={{ marginTop: '100px' }}>
+        <main
+          role="main"
+          style={{
+            marginTop: '100px'
+          }}
+        >
           <ApplicationWrap className="Page__MainWrapper">
             <section className="Page__Hero">
               <Hero />
-            </section>
+            </section>{' '}
             <section className="Page__DonateCallToAction">
               <DonateCallToAction />
-            </section>
-            <section className="Page__About" style={{ background: '#eeeded' }}>
+            </section>{' '}
+            <section
+              className="Page__About"
+              style={{
+                background: '#eeeded'
+              }}
+            >
               <About />
-            </section>
-          </ApplicationWrap>
-        </main>
+            </section>{' '}
+          </ApplicationWrap>{' '}
+        </main>{' '}
       </div>
     );
   }

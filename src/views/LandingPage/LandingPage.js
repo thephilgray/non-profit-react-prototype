@@ -7,6 +7,7 @@ import DonateCallToAction from './Sections/DonateCallToAction';
 import About from './Sections/About';
 import Issues from './Sections/Issues';
 import News from './Sections/News';
+import Connect from './Sections/Connect';
 
 const ApplicationWrap = styled('div')`
   flex: 1 1 auto;
@@ -53,6 +54,14 @@ class LandingPage extends Component {
               }}
             >
               <News />
+            </section>
+            <section
+              className="Page__Connect"
+              style={{
+                background: '#fff'
+              }}
+            >
+              <Connect />
             </section>
           </ApplicationWrap>
         </main>

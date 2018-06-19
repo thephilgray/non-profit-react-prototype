@@ -92,7 +92,7 @@ export default props => (
         ))}
       </Grid>
       <Grid item xs={12}>
-        <Button size="large" fullWidth color="secondary">
+        <Button size="large" variant="outlined" fullWidth color="secondary">
           More News
         </Button>
       </Grid>

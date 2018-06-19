@@ -73,7 +73,7 @@ export default props => (
         </StyledGridList>
       </StyledGridListWrapper>
       <Grid item xs={12}>
-        <Button size="large" fullWidth color="secondary">
+        <Button size="large" fullWidth color="secondary" variant="outlined">
           More Issues
         </Button>
       </Grid>

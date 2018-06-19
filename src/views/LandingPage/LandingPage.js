@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 import Header from 'components/Header/Header';
+import Footer from 'components/Footer/Footer';
 import Hero from './Sections/Hero';
 import DonateCallToAction from './Sections/DonateCallToAction';
 import About from './Sections/About';
 import Issues from './Sections/Issues';
 import News from './Sections/News';
 import Connect from './Sections/Connect';
+import Subscribe from './Sections/Subscribe';
 
 const ApplicationWrap = styled('div')`
   flex: 1 1 auto;
@@ -56,6 +58,14 @@ class LandingPage extends Component {
               <News />
             </section>
             <section
+              className="Page__Subscribe"
+              style={{
+                background: '#eeeded'
+              }}
+            >
+              <Subscribe />
+            </section>
+            <section
               className="Page__Connect"
               style={{
                 background: '#fff'
@@ -65,6 +75,9 @@ class LandingPage extends Component {
             </section>
           </ApplicationWrap>
         </main>
+        <footer style={{ background: '#303030' }}>
+          <Footer />
+        </footer>
       </div>
     );
   }

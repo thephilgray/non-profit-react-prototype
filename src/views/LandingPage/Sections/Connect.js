@@ -32,8 +32,8 @@ export default props => (
           Connect With Us
         </Typography>
       </Grid>
-      {tweets.map(tweet => (
-        <Grid item xs={12} sm={6} md={4}>
+      {tweets.map((tweet, i) => (
+        <Grid item xs={12} sm={6} md={4} key={i}>
           <Card>
             <CardHeader
               avatar={

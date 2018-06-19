@@ -6,6 +6,8 @@ import Hero from './Sections/Hero';
 import DonateCallToAction from './Sections/DonateCallToAction';
 import About from './Sections/About';
 import Issues from './Sections/Issues';
+import News from './Sections/News';
+
 const ApplicationWrap = styled('div')`
   flex: 1 1 auto;
   backface-visibility: hidden;
@@ -43,6 +45,14 @@ class LandingPage extends Component {
             </section>
             <section className="Page__Issues">
               <Issues />
+            </section>
+            <section
+              className="Page__News"
+              style={{
+                background: '#fff'
+              }}
+            >
+              <News />
             </section>
           </ApplicationWrap>
         </main>
